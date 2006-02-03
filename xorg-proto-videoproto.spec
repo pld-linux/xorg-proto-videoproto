@@ -2,7 +2,7 @@ Summary:	Video protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Video i pomocnicze.
 Name:		xorg-proto-videoproto
 Version:	2.2.2
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/videoproto-%{version}.tar.bz2
