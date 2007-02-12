@@ -1,5 +1,5 @@
 Summary:	Video protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Video i pomocnicze.
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Video i pomocnicze.
 Name:		xorg-proto-videoproto
 Version:	2.2.2
 Release:	1
@@ -16,20 +16,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Video protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 Video i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u Video i pomocnicze.
 
 %package devel
 Summary:	Video protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Video i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Video i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
 Video protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 Video i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u Video i pomocnicze.
 
 %prep
 %setup -q -n videoproto-%{version}
