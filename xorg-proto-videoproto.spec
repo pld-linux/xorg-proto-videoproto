@@ -5,7 +5,7 @@ Version:	2.2.2
 Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/videoproto-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/videoproto-%{version}.tar.bz2
 # Source0-md5:	44292d74a9a3c94b1ecb9d77a0da83e8
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
