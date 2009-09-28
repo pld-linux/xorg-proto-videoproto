@@ -1,5 +1,5 @@
-Summary:	Video protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Video i pomocnicze.
+Summary:	Video extension headers
+Summary(pl.UTF-8):	Nagłówki roszerzenia Video
 Name:		xorg-proto-videoproto
 Version:	2.3.0
 Release:	1
@@ -14,22 +14,22 @@ BuildRequires:	xorg-util-util-macros >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Video protocol and ancillary headers.
+Video extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Video i pomocnicze.
+Nagłówki roszerzenia Video.
 
 %package devel
-Summary:	Video protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Video i pomocnicze
+Summary:	Video extension headers
+Summary(pl.UTF-8):	Nagłówki roszerzenia Video
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-Video protocol and ancillary headers.
+Video extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Video i pomocnicze.
+Nagłówki roszerzenia Video.
 
 %prep
 %setup -q -n videoproto-%{version}
