@@ -8,16 +8,16 @@ Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/videoproto-%{version}.tar.bz2
 # Source0-md5:	c3b348c6e2031b72b11ae63fc7f805c2
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros >= 1.2
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Video extension headers.
+Video (XVideo) extension headers.
 
 %description -l pl.UTF-8
-Nagłówki roszerzenia Video.
+Nagłówki roszerzenia Video (XVideo).
 
 %package devel
 Summary:	Video extension headers
@@ -26,10 +26,10 @@ Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-Video extension headers.
+Video (XVideo) extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki roszerzenia Video.
+Nagłówki roszerzenia Video (XVideo).
 
 %prep
 %setup -q -n videoproto-%{version}
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README xv-protocol-v2.txt
 %{_includedir}/X11/extensions/Xv*.h
 %{_includedir}/X11/extensions/vldXvMC.h
 %{_pkgconfigdir}/videoproto.pc
