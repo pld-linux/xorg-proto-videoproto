@@ -1,12 +1,12 @@
 Summary:	Video extension headers
 Summary(pl.UTF-8):	Nagłówki roszerzenia Video
 Name:		xorg-proto-videoproto
-Version:	2.3.2
-Release:	2
+Version:	2.3.3
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/videoproto-%{version}.tar.bz2
-# Source0-md5:	e658641595327d3990eab70fdb55ca8b
+# Source0-md5:	fe86de8ea3eb53b5a8f52956c5cd3174
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
