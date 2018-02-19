@@ -1,5 +1,5 @@
 Summary:	Video extension headers
-Summary(pl.UTF-8):	Nagłówki roszerzenia Video
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Video
 Name:		xorg-proto-videoproto
 Version:	2.3.3
 Release:	1
@@ -17,11 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Video (XVideo) extension headers.
 
 %description -l pl.UTF-8
-Nagłówki roszerzenia Video (XVideo).
+Nagłówki rozszerzenia Video (XVideo).
 
 %package devel
 Summary:	Video extension headers
-Summary(pl.UTF-8):	Nagłówki roszerzenia Video
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Video
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
@@ -29,7 +29,7 @@ Requires:	xorg-proto-xproto-devel
 Video (XVideo) extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki roszerzenia Video (XVideo).
+Nagłówki rozszerzenia Video (XVideo).
 
 %prep
 %setup -q -n videoproto-%{version}
